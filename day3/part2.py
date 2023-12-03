@@ -6,10 +6,7 @@ enginemap=[]
 def main():
     results=[]
     for line in f:
-        temp=[]
-        for c in line.strip():
-            temp.append(c)
-        enginemap.append(temp)
+        enginemap.append(line.strip())
     print_engine()
 
     line=0
