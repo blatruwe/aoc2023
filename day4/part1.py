@@ -1,11 +1,10 @@
-f=open('input.txt')
+f=open('day4/input.txt')
 games=dict()
 
 def main():
     parseinput()
     sum=0
     for game in games:
-
         sum+=getscore(game)
     print(sum)
 

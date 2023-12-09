@@ -1,4 +1,4 @@
-f=open('input.txt')
+f=open('day4/input.txt')
 games=dict()
 
 def main():
